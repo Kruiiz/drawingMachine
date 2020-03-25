@@ -15,11 +15,8 @@ function draw() {
   function keyTyped(){
 
     if (key === 's'){
-      console.log('key ${key} is being typed')
-
-      if (key === 's'){
-
-      }
+    //save this image
+    saveCanvas('fileName', 'png');
     }
 
     return false;
